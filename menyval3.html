@@ -1,0 +1,56 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+      <link rel="icon" type="image/png" href="bilder/pof.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Karlas hemsida</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+
+    <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Karla</a>
+                <ul class="nav navbar-nav">
+                    <li><a href="menyval1.html">Karlas Ostbollar</a></li>
+                    <li><a href="menyval2.html">Karlas Fanta</a></li>
+                    <li><a href="menyval3.html">Karlas Ost</a></li>
+                      <li><a href="menyval4.html">karlas ?</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h3 class="karla2" >Det här är min ostsida, och jag älskar ost. <br> En sak som är så bra med ost är att det finns så många olika sorters ost, alla möjliga tänkbara sortars ostar. Som Permesan, Cheddar, Manchego, Svecia, Havarti, Herrgård, Greve, Gräddost, och Ostburgare. </h3>
+
+       <img src="bilder/svecia.jpg">
+
+       <h4>Eller så har man Prästost som favorit, mmm. Den grynpipiga hårdosten med 50%fett och tillverkades ursprungligen 
+    av tiondemjölk på prästgårdar i småland</h4>
+
+
+</body>
+</html>
